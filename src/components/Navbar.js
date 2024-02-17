@@ -30,7 +30,7 @@ const Layout = () => {
             <div class="navbar-nav">
 
                 <Link class="nav-link active" to= "/">Home</Link>
-                <Link class="nav-link" to="/blogs">Blogs</Link>
+                <Link class="nav-link" to="/Projects">Projects</Link>
                 <Link class="nav-link" to = "/contact">Contact</Link>
 
             </div>

@@ -3,7 +3,7 @@ import { Route, Routes} from 'react-router-dom';
 
 import Layout from './components/Navbar';
 import Home from './pages/Home';
-import Blogs from './pages/Blogs';
+import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import NoPage from './pages/NoPage';
 
@@ -12,7 +12,7 @@ import NoPage from './pages/NoPage';
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>} />
-          <Route path="blogs" element={<Blogs/>} />
+          <Route path="projects" element={<Projects/>} />
           <Route path="contact" element={<Contact/>} />
           <Route path="*" element={<NoPage/>} />
         </Route>
